@@ -385,6 +385,7 @@ color: wheat;
             grid-template-rows: 1fr ;
             column-gap: 15px;
             row-gap: 15px;
+            overflow: hidden;
             overflow-y: scroll;
     
         }
