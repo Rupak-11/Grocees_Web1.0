@@ -65,7 +65,7 @@ nav:nth-child(1) {
     align-items: flex-start;
     flex-direction: column;
     height: 100vh;
-    width: 50%;
+    width: 80%;
     gap: 30px;
     z-index: 999;
     background: rgb(171, 125, 218);
@@ -236,23 +236,42 @@ nav:nth-child(1) {
 }
 
 .categories{
-    height: 50vh;
+    height: 70vh;
     width: 100%;
-    background: green;
+    background: rgb(165, 122, 207);
+    padding: 10px 15px;
+}
+
+.menu{
+    display: none;
+}
+
+.categories a{
+text-decoration: none;
+color: wheat;    
 }
 
 @media (min-width:200px) and (max-width:900px) {
+
+.page1{
+    height: 151vh;
+}
+
     #container-fluid {
         display: none;
     }
 
-    .navbar {
-        /* display: none; */
+    .menu{
+        display: block;
+    }
+
+    .rwd {
+        display: none;
     }
 
     .flex-containers {
         height: 150vh;
-        width: 38%;
+        width: 50%;
         /* background: rgb(220, 166, 166); */
         display: flex;
         justify-content: flex-start;
@@ -271,10 +290,10 @@ nav:nth-child(1) {
     .grid-containers {
         height: 150vh;
         width: 80%;
-        background: red;
+        background: gainsboro;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
         overflow-y: scroll;
 
     }
@@ -283,11 +302,22 @@ nav:nth-child(1) {
         width: 0;
     }
 
+    .item-grid{
+     width: 238px;   
+    }
+
 
     .definition {
         font-size: 15px;
         padding: 20px 20px;
         overflow-y: scroll;
+    }
+
+    .categories{
+        height: 111vh;
+        width: 100%;
+        background: rgb(165, 122, 207);
+        padding: 10px 15px;
     }
 
 }

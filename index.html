@@ -19,8 +19,8 @@
     <nav>
       <ul class="navbar">
         <li><a href="">Grocito</a></li>
-        <li>
-          <div class="dropdown">
+        <li class="rwd">
+          <div class="dropdown ">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown button
             </button>
@@ -31,18 +31,18 @@
             </ul>
           </div>
         </li>
-        <li>
-          <form class="d-flex">
+        <li class="rwd">
+          <form class="d-flex ">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </li>
         <li>
-          <button class="btn btn-success">Login</button>
-          <button class="btn btn-warning">My-Cart</button>
+          <button class="btn btn-success rwd">Login</button>
+          <button class="btn btn-warning rwd">My-Cart</button>
         </li>
         <li onclick= showSidebar()>
-          <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          <svg class="menu" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
         </li>
       </ul>
       <ul class="sidebar">
@@ -414,9 +414,6 @@
 
         <h4>Benefits Of Using Grocito:</h4>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque maiores molestiae unde. Explicabo perferendis rerum ducimus dolorum recusandae doloremque numquam, mollitia xplicabo perferendis rerum ducimus dolorum recusandae doloremque officia </p>
-
-        <h4>Perks Of Using Grocito:</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque maiores </p> 
       </div>
     </div>
     <div class="define-tags">
@@ -467,8 +464,68 @@
     </div>
 
     <div class="categories">
-      
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="">
+            
+            <span class="fs-5">Grocito</span>
+          </a>
+          <ul class="list-unstyled small text-muted">
+            <li class="mb-2">Grocito provides a user-friendly platform that enables local sellers to create online stores and sell products to customers in their area more efficiently..</li>
+    <li class="mb-2">Currently v1.0.1.</li>
+            <li class="mb-2"><a href="">Visit Our Official Website</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5>Groceries</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="">Tea</a></li>
+            <li class="mb-2"><a href="">Atta</a></li>
+            <li class="mb-2"><a href="">Rice</a></li>
+            <li class="mb-2"><a href="">Cereals</a></li>
+            <li class="mb-2"><a href="">Pulses</a></li>
+         
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Health Drinks</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="">Bournvita</a></li>
+            <li class="mb-2"><a href="">Complan</a></li>
+            <li class="mb-2"><a href="">Horlicks</a></li>
+            <li class="mb-2"><a href="">Milk</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Snacks</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="">Biscuits</a></li>
+            <li class="mb-2"><a href="">Cookies</a></li>
+            <li class="mb-2"><a href="">Cakes</a></li>
+            <li class="mb-2"><a href="">Bakery</a></li>
+            <li class="mb-2"><a href="">Creams</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Soft Drinks</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="">Sprite</a></li>
+            <li class="mb-2"><a href="">Coca-Cola</a></li>
+            <li class="mb-2"><a href="">Fanta</a></li>
+            <li class="mb-2"><a href="">Dew</a></li>
+            <li class="mb-2"><a href="">Mocktail</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="container-fluid">
+
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2019–2024 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </div>
     </div>
+
+    
   </footer>
 
 </body>
