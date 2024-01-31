@@ -68,7 +68,7 @@ nav:nth-child(1) {
     width: 80%;
     gap: 30px;
     z-index: 999;
-    background: rgb(171, 125, 218);
+    background: rgb(193, 149, 237);
     display: none;
 }
 
@@ -98,7 +98,7 @@ nav:nth-child(1) {
 
 
 .flex-containers {
-    height: 150vh;
+    height: 151vh;
     width: 15%;
     background: rgb(220, 166, 166);
     display: flex;
@@ -200,7 +200,8 @@ nav:nth-child(1) {
 .page2 {
     height: 75vh;
     width: 100%;
-    background: palegreen;
+    background: gainsboro;
+   border: 10px;
 }
 
 .definition {
@@ -218,25 +219,27 @@ nav:nth-child(1) {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right , rgb(92, 245, 92) , lawngreen);
 }
 
 #box-1{
     height: 70vh;
     width: 50%;
-    background: lightpink;
-    border: 2px solid red;
+    /* background: greenyellow; */
+   
+    
     
 }
 #box-2{
     height: 70vh;
     width: 50%;
-    background: lightgreen;
-    border: 2px solid red;
+    /* background: lightgreen; */
+
     padding: 10px 15px;
 }
 
 .categories{
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     background: rgb(165, 122, 207);
     padding: 10px 15px;
