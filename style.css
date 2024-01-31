@@ -105,6 +105,7 @@ nav:nth-child(1) {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 10px;
     padding: 4px 4px;
     margin: 5px 0px;
     overflow-y: scroll;
@@ -287,13 +288,13 @@ color: wheat;
     .flex-containers {
         height: 150vh;
         width: 50%;
-        /* background: rgb(220, 166, 166); */
+        border-radius: 10px;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         overflow-y: scroll;
-        /* overflow-y: hidden; */
+        
     }
 
  
@@ -327,7 +328,7 @@ color: wheat;
     }
 
     .categories{
-        height: 111vh;
+        height: 125vh;
         width: 100%;
         background: rgb(165, 122, 207);
         padding: 10px 15px;
@@ -361,13 +362,13 @@ color: wheat;
         .flex-containers {
             height: 150vh;
             width: 50%;
-            /* background: rgb(220, 166, 166); */
-            display: flex;
+            border-radius: 10px;
+             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
             flex-direction: column;
             overflow-y: scroll;
-            /* overflow-y: hidden; */
+            
         }
     
         .grid-containers {
