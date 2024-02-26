@@ -69,7 +69,7 @@ nav:nth-child(1) {
     width: 80%;
     gap: 30px;
     z-index: 999;
-    background: rgb(193, 149, 237);
+    background: rgb(50, 220, 41);
     display: none;
 }
 
@@ -239,7 +239,6 @@ nav:nth-child(1) {
 
 
 .define-tags {
-    /* position: relative; */
     top: 0;
     height: 85vh;
     width: 100%;
@@ -305,9 +304,22 @@ color: lime;
 
 @media (min-width:200px) and (max-width:750px) {
 
+  
+
 .page1{
     height: 151vh;
 }
+
+.sidebar{
+    width: 100%;
+    
+}
+
+nav{
+    width: 135%;
+}
+
+
 
     #container-fluid {
         display: none;
@@ -321,9 +333,11 @@ color: lime;
         display: none;
     }
 
+  
+
     .flex-containers {
         height: 150vh;
-        width: 50%;
+        width: 80%;
         border-radius: 10px;
         display: flex;
         justify-content: flex-start;
@@ -359,15 +373,32 @@ color: lime;
 
     .definition {
         font-size: 15px;
-        padding: 20px 20px;
+        padding: -8px -8px;
+        margin-left: 40px;
         overflow-y: scroll;
+    }
+
+    .define-tags {
+       
+        top: 0;
+        height: 70vh;
+        width: 100%;
+        padding: 0px 0px;
+        margin: 0px 0px;
+        /* background: rgb(4, 112, 253); */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        /* background: linear-gradient(to right , rgb(165, 122, 207) ,  rgb(220, 166, 166)); */
     }
 
     .categories{
         height: 125vh;
         width: 100%;
-        background: rgb(165, 122, 207);
-        padding: 10px 15px;
+        /* background: rgb(136, 132, 132); */
+        padding: 50px 15px;
     }
 
 }
