@@ -139,8 +139,8 @@ nav:nth-child(1) {
 .flex-containers {
     height: 150vh;
     width: 20%;
-    border-radius: 10px;
-     display: flex;
+    border-radius: 5px;
+    display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -207,7 +207,7 @@ nav:nth-child(1) {
 
 .items:hover {
     cursor: pointer;
-   background: gray;
+   background: gainsboro;
 }
 
 .items img {
