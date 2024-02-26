@@ -13,7 +13,7 @@
     height: 15vh;
     width: 100%;
     margin: auto;
-    background:rgb(109, 255, 41);
+    background:rgb(87, 255, 9);
     color: wheat;
     border-radius: 3px;
     margin-top: 0px;
@@ -76,7 +76,6 @@ nav:nth-child(1) {
 .column-container {
     margin-top: 20px;
     margin-left: 0px;
-    border-bottom: 1px solid black
     
 }
 
@@ -90,7 +89,7 @@ nav:nth-child(1) {
 }
 
 .col:hover {
-    color: rgb(139, 219, 58);
+    color: rgb(73, 115, 32);
 }
 
 #dropdown1{
@@ -100,7 +99,7 @@ nav:nth-child(1) {
 
 .sorting-container{
     height: 10vh;
-    width: 97%;
+    width: 88%;
     background: #fff;
     margin-left: 190px;
     margin-top: 10px;
@@ -119,22 +118,6 @@ nav:nth-child(1) {
     overflow-y: scroll;
 }
 
-
-/* .flex-containers {
-    height: 190vh;
-    width: 17%;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 3px;
-    padding: 8px 4px;
-    margin: 5px 0px;
-    border: 1px solid gray;
-    overflow-y: scroll;
-
-} */
 
 .flex-containers {
     height: 150vh;
@@ -179,6 +162,7 @@ nav:nth-child(1) {
     padding: 4px 10px;
     place-self: center;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .item-grid img {
@@ -237,19 +221,20 @@ nav:nth-child(1) {
 }
 
 .items p:hover {
-    color: lawngreen;
+    color: rgb(71, 125, 16);
 }
 
 
-.page2 {
+.page2 {margin-top: 100px;
     height: 75vh;
     width: 100%;
-    background:  linear-gradient(to right ,rgb(165, 122, 207) ,  gainsboro);
    border: 10px;
 }
 
 .definition {
-    padding: 20px 160px;
+    margin-left: 280px;
+    padding: 20px 50px;
+    border-left: 3px solid black;
 }
 
 
@@ -263,13 +248,14 @@ nav:nth-child(1) {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right , rgb(165, 122, 207) ,  rgb(220, 166, 166));
+    /* background: linear-gradient(to right , rgb(165, 122, 207) ,  rgb(220, 166, 166)); */
 }
 
 #box-1{
     height: 70vh;
     width: 50%;
-    padding: 2px 9px;
+    padding: 2px 15px;
+    margin-left: 269px;
     /* background: greenyellow; */
    
     
@@ -279,18 +265,26 @@ nav:nth-child(1) {
     height: 70vh;
     width: 50%;
     /* background: lightgreen; */
-
-    padding: 10px 15px;
+    margin-left: 200px;
+    padding: 0px 15px;
 }
 
 #box-2 a{
     text-decoration: none;
+    color: limegreen;
+   
+}
+
+.Products-section > .col-6{
+    margin-top: 10px;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .categories{
     height: 60vh;
     width: 100%;
-    background: linear-gradient(to right , rgb(147, 58, 237) ,  rgb(232, 90, 90));
+    /* background: linear-gradient(to right , rgb(147, 58, 237) ,  rgb(232, 90, 90)); */
     padding: 10px 15px;
 }
 
@@ -300,7 +294,7 @@ nav:nth-child(1) {
 
 .categories a{
 text-decoration: none;
-color: wheat;    
+color: lime;    
 }
 
 #icons{
