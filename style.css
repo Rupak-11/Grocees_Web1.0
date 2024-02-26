@@ -256,10 +256,10 @@ nav:nth-child(1) {
     padding: 2px 15px;
     margin-left: 269px;
     /* background: greenyellow; */
-   
-    
-    
-}
+   }
+
+
+
 #box-2{
     height: 70vh;
     width: 50%;
@@ -391,7 +391,7 @@ nav{
         justify-content: center;
         align-items: center;
         display: none;
-        /* background: linear-gradient(to right , rgb(165, 122, 207) ,  rgb(220, 166, 166)); */
+
     }
 
     .categories{
@@ -441,7 +441,7 @@ nav{
         .grid-containers {
             height: 150vh;
             width: 69%;
-            background: red;
+            /* background: red; */
         }
     
         .grid-containers {
@@ -476,12 +476,13 @@ nav{
         .categories{
             height: 111vh;
             width: 100%;
-            background: rgb(165, 122, 207);
+            /* background: rgb(165, 122, 207); */
             padding: 10px 15px;
         }
 
         .define-tags{
             height: 30vh;
+            display: none;
         }
 
         #box-1{
