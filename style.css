@@ -407,9 +407,13 @@ nav{
 @media (min-width:751px) and (max-width:900px){
 
     .page1{
-        height: 151vh;
+        height: 106vh;
     }
-
+    .sorting-container {
+        height: 4vh;
+        width: 88%;
+    }
+    
     .page2{
         height: 35vh;
     }
@@ -427,7 +431,7 @@ nav{
         }
     
         .flex-containers {
-            height: 150vh;
+            height: 105vh;
             width: 50%;
             border-radius: 10px;
              display: flex;
@@ -438,14 +442,9 @@ nav{
             
         }
     
-        .grid-containers {
-            height: 150vh;
-            width: 69%;
-            /* background: red; */
-        }
     
         .grid-containers {
-            height: 150vh;
+            height: 105vh;
             width: 80%;
             background: gainsboro;
             display: grid;
